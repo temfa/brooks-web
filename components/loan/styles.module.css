@@ -1,0 +1,63 @@
+.loansContainer {
+    background-image: url("../../public/images/back.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #E6F6FF;
+    padding: 74px 235px;
+    display: flex;
+    gap: 71px;
+    align-items: center;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 610px;
+}
+
+.side div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.side div h3 {
+    color: #1A191E;
+    font-size: 23.42px;
+    font-weight: 500;
+    line-height: 28.1px;
+    letter-spacing: -0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.side div h2 {
+    color: #1A191E;
+    font-size: 85.97px;
+    font-weight: 500;
+    line-height: 85.11px;
+    letter-spacing: -0.06em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.side div p {
+    color: #746B6B;
+    font-size: 22.34px;
+    font-weight: 400;
+    line-height: 40.22px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.side a {
+    color: #1A191E;
+    font-size: 28.63px;
+    font-weight: 500;
+    line-height: 34.36px;
+    letter-spacing: -0.065em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}

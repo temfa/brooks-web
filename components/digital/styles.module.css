@@ -1,0 +1,44 @@
+.digital {
+    padding: 89px 224px 129px 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.side {
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    width: 536px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.top h2 {
+    color: #1F1E1E;
+    font-size: 74.25px;
+    font-weight: 500;
+    line-height: 81.68px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.top p {
+    font-size: 20.88px;
+    font-weight: 400;
+    line-height: 37.59px;
+    color: #746B6B;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.row {
+    display: flex;
+    gap: 19px;
+}

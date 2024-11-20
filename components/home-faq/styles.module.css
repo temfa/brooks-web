@@ -1,0 +1,58 @@
+.homefaqWrapper {
+    background-color: #E6F6FF;
+    padding: 82px 86px 123px 152px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.homefaqWrapper>h2 {
+    color: #1A191E;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67.2px;
+    letter-spacing: -0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.homefaqBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.homefaqSingle {
+    padding: 40px 0px;
+    border-bottom: 1px solid #B3E1FB;
+    cursor: pointer;
+}
+
+.homefaqSingle:first-child {
+    padding-top: 0px;
+}
+
+.homefaqSingle div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homefaqSingle div h3 {
+    font-size: 25.23px;
+    font-weight: 500;
+    line-height: 30.28px;
+    letter-spacing: -0.03em;
+    color: #1A191E;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.homefaqWrapper a {
+    color: #EE2F24;
+    font-size: 22.71px;
+    font-weight: 500;
+    line-height: 22.71px;
+    letter-spacing: -0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}

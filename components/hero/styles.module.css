@@ -1,0 +1,107 @@
+.heroContainer {
+    background-color: #E6F6FF;
+}
+
+.heroWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 92%;
+    max-width: 1386px;
+    margin: 0px auto;
+}
+
+.heroLeft {
+    width: 51%;
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+}
+
+.heroLeftTop {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.heroLeftTop div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.heroLeftTop div h3 {
+    color: #0099EE;
+    font-size: 16.59px;
+    font-weight: 600;
+    line-height: 23.71px;
+    letter-spacing: 1.1853282451629639px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.heroLeftTop div h2 {
+    color: #171717;
+    width: 621px;
+    font-size: 61.64px;
+    font-weight: 700;
+    line-height: 66.38px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.heroLeftTop>p {
+    color: #404040;
+    width: 580px;
+    font-size: 21.34px;
+    font-weight: 400;
+    line-height: 33.19px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.heroLeftTop>button {
+    background-color: #C40002;
+    border-radius: 13px;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18.77px;
+    font-weight: 600;
+    line-height: 18.77px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.fully {
+    display: flex;
+    align-items: center;
+    gap: 15px
+}
+
+.fully p {
+    color: #ABA5A5;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.46px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.heroRight {
+    position: relative;
+    width: 49%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.phone {
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+}

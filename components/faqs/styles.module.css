@@ -1,0 +1,62 @@
+.container {
+    padding: 62px 0px 110px;
+    background-color: #E6F6FF;
+}
+
+.wrapper {
+    width: 84%;
+    max-width: 1274px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    align-items: center;
+}
+
+.header h2 {
+    color: #363636;
+    font-size: 39.05px;
+    font-weight: 700;
+    line-height: 57.02px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.homefaqSingle {
+    padding: 40px 0px;
+    border-bottom: 1px solid #B3E1FB;
+    cursor: pointer;
+}
+
+.homefaqSingle:first-child {
+    padding-top: 0px;
+}
+
+.homefaqSingle div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homefaqSingle div h3 {
+    font-size: 25.23px;
+    font-weight: 400;
+    line-height: 30.28px;
+    letter-spacing: -0.03em;
+    color: #1A191E;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}

@@ -1,0 +1,101 @@
+.ourServicesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 92%;
+    max-width: 1386px;
+    margin: 0px auto;
+    padding: 110px 0px 142px;
+}
+
+.ourServicesHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 800px;
+}
+
+.ourServicesHeader h3 {
+    color: #1A191E;
+    font-size: 18.73px;
+    font-weight: 500;
+    line-height: 22.48px;
+    letter-spacing: -0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.ourServicesHeader h2 {
+    color: #1A191E;
+    width: 659px;
+    font-size: 59.94px;
+    font-weight: 700;
+    line-height: 65.93px;
+    letter-spacing: -0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.ourServicesHeader p {
+    color: #1A191E;
+    font-size: 18.73px;
+    font-weight: 400;
+    line-height: 33.71px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.ourServicesBody {
+    display: flex;
+    gap: 31px;
+}
+
+.ourServicesSingle {
+    width: 229px;
+    padding: 24px;
+    border: 1.51px solid #DFE1F1;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ourServicesSingle div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.ourServicesSingle div h2 {
+    font-size: 15.14px;
+    font-weight: 700;
+    line-height: 18.17px;
+    letter-spacing: -0.03em;
+    color: #1A191E;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.ourServicesSingle div p {
+    color: #5A5863;
+    font-size: 12.11px;
+    font-weight: 400;
+    line-height: 19.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+.ourServicesSingle:nth-child(2) {
+    border-color: #F1DFDF;
+    background-color: #F9ECEC;
+}
+
+.ourServicesSingle:nth-child(3) {
+    background-color: #EAEBF8;
+}
+
+.ourServicesSingle:nth-child(5) {
+    background-color: #DFEBF1;
+}

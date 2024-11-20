@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 106px;
+    padding: 83px 0px 148px;
+    margin: 0px auto;
+    width: 85%;
+    max-width: 1286px;
+}
+
+.top h1 {
+    font-size: 16.59px;
+    font-weight: 500;
+    color: #0099EE;
+    line-height: 23.71px;
+    letter-spacing: 1.1853282451629639px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.top div {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.top div h2 {
+    color: "#000000";
+    width: 750px;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 68.67px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.top div p {
+    color: #231F20;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.bottom {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 54px;
+}
+
+.single {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.single p {
+    color: #262D3D;
+    font-size: 25.28px;
+    font-weight: 400;
+    line-height: 37.35px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}

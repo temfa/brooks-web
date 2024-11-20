@@ -1,0 +1,180 @@
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+    padding: 81px 0px 53px;
+    width: 84%;
+    max-width: 1269px;
+    margin: 0 auto;
+}
+
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 292px;
+}
+
+.firstHead {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.firstHead p {
+    color: #9A8D8D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.42px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.firstHead h2 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28.15px;
+    color: #232B34;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.subscribeContainer {
+    display: flex;
+}
+
+.subscribeContainer input {
+    border: 0.7px solid #BCC4CD;
+    padding: 16px 20px 16px 10px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.08px;
+    color: #848C95;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.subscribeContainer button {
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #ED1C24;
+    padding: 16px 18px 16px 24px;
+    color: #FFFFFFE8;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14.08px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 249px;
+}
+
+.contact>h3 {
+    color: #111010;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 18.77px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.contactBody {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.contactAddress {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.contactAddress p {
+    color: #1A191E;
+    font-size: 14.24px;
+    font-weight: 400;
+    line-height: 19.94px;
+    letter-spacing: -0.03em;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.contactAddress h4 {
+    color: #1A191E80;
+    font-size: 14.24px;
+    font-weight: 400;
+    line-height: 19.94px;
+    letter-spacing: -0.03em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.row {
+    display: flex;
+    gap: 17px;
+}
+
+.quickLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.quickLinks h2 {
+    color: #111010;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.77px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.quickLinks a {
+    color: #1A191E80;
+    font-size: 14.4px;
+    font-weight: 400;
+    line-height: 23.04px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    border-top: 0.9px solid #E8E8E8;
+}
+
+.footerBottom div {
+    display: flex;
+    gap: 29px;
+}
+
+.footerBottom p,
+.footerBottom a {
+    color: #1A191E80;
+    font-size: 12.6px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
